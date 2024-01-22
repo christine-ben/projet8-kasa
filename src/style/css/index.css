@@ -193,8 +193,8 @@
   padding: 0 10px;
 }
 .slideshow_controls_chevron {
-  width: 50px !important;
-  height: auto !important;
+  width: 50px ;
+  height: auto ;
   font-size: 25px;
   opacity: 0.5;
   cursor: pointer;
