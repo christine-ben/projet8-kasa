@@ -1,26 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-// Composant pour afficher une carte de logement
 const Card = ({ id, title, cover }) => {
   return (
-   
-  <li key={id} className='home'>
-      
-      <a href={'/HomePage/' + id}>
-        
+    <li key={id} className='home'>
+      <Link to={`/HomePage/${id}`}>
         <figure className='home_figure'>
-          
           <img src={cover} alt={title} className='home_figure_cover' />
-          
           <figcaption className='home_figure_figcaption'>
             <h2 className='home_figure_figcaption_title'>{title}</h2>
           </figcaption>
-        
         </figure>
-      
-      </a>
-  
-  </li>
+      </Link>
+    </li>
   );
 }
 
