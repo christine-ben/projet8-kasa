@@ -2,7 +2,7 @@
   "name": "projet-kasa",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://github.io/christine-ben/projet8-kasa",
+  "homepage":"https://christine-ben.github.io/projet8-kasa",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
