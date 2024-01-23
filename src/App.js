@@ -10,7 +10,7 @@ import HomePage from './page/HomePage';
 function App() {
   return (
    
-    <BrowserRouter>
+    <BrowserRouter  basename="projet-kasa">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route exact path="/home" element={<Home />} />
