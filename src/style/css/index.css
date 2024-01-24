@@ -172,6 +172,7 @@
 }
 .slideshow_container {
   display: flex;
+  width: 100%;
   transition: transform 0.5s ease;
 }
 .slideshow_container_img {
@@ -179,6 +180,10 @@
   width: 100%;
   height: 350px;
   object-fit: cover;
+}
+.autreClasse{
+  object-fit: cover;
+  position:absolute;
 }
 .slideshow_controls {
   position: absolute;
@@ -381,7 +386,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: 142.6%;
-  
 }
 .home_page_hoster_img{
   width: 3.3rem;
@@ -452,7 +456,7 @@
 }
 /*--------------fin media Erreur.css------------*/
 /*--------------media Gallery.css------------*/
-.slideshow_idx {
+.slideshow_id {
   display: none;
 }
 /*--------------fin media Gallery.css------------*/

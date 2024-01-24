@@ -19,7 +19,8 @@ const HousingPage = () => {
       <ErrorContent/>
     );
   }
-
+  
+  
   // Afficher la page du logement
   return (
     <section key={housing.id} className='home_page'>

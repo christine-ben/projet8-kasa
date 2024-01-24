@@ -9,6 +9,8 @@ const Gallery = (props) => {
 
     const Prev = () => setSlideId((slideId - 1 + props.img.length) % props.img.length);
 
+    
+
     return (
         <div className='slideshow'>
             <div className='slideshow_container' style={{transform: `translateX(-${slideId * 100}%)`}}>
